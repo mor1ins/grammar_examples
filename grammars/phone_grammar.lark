@@ -1,0 +1,15 @@
+phone: _russia | _belarus
+
+DIGIT: /\d/
+
+
+_russia: russia russia_number
+RUSSIA: "7"
+russia: RUSSIA -> country_code
+russia_number: DIGIT ~ 10 -> number
+
+
+_belarus: belarus belarus_number
+BELARUS: "375"
+belarus: BELARUS -> country_code
+belarus_number: DIGIT ~ 9 -> number

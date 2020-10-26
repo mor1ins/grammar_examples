@@ -1,0 +1,11 @@
+mail: username DOG server
+username: USERNAME
+server: [subdomain DOT] domain
+subdomain: DOMAIN
+domain: DOMAIN
+
+
+USERNAME: /[a-zA-Z0-9\.\!\#\$\%\&\'\*\+\/\=\?\^\_\`\{\|\}\~\-]+/
+DOMAIN: /[a-zA-Z]+/
+DOG: "@"
+DOT: "."

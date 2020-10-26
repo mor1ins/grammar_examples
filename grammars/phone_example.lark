@@ -1,0 +1,8 @@
+%import .grammars.phone_grammar.phone
+
+
+start: phone
+
+
+GARBAGE: /[\+\- ()]/
+%ignore GARBAGE

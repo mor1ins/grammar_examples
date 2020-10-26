@@ -1,0 +1,3 @@
+%import .grammars.email_grammar.mail
+
+start: mail
